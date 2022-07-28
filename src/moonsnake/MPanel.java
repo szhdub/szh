@@ -122,13 +122,13 @@ public class MPanel extends JPanel implements KeyListener, ActionListener {
 			} else {
 				stopBGM();
 			}
-		}else if(keyCode == KeyEvent.VK_LEFT) {
+		}else if(keyCode == KeyEvent.VK_A) {
 			fx = "L";
-		}else if(keyCode == KeyEvent.VK_RIGHT) {
+		}else if(keyCode == KeyEvent.VK_D) {
 			fx = "R";
-		}else if(keyCode == KeyEvent.VK_UP) {
+		}else if(keyCode == KeyEvent.VK_W) {
 			fx = "U";
-		}else if(keyCode == KeyEvent.VK_DOWN) {
+		}else if(keyCode == KeyEvent.VK_S) {
 			fx = "D";
 		}
 	}
